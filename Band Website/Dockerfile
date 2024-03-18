@@ -5,7 +5,7 @@ FROM nginx:alpine
 WORKDIR /usr/share/nginx/html
 
 # Copy the content of the Band Website repository into the container
-COPY . .
+COPY . ./
 
 # Expose port 80
 EXPOSE 80
